@@ -13,10 +13,12 @@ function buttonEvent() {
   //                값이 없을 경우 => button 비활성화
   // hint : input 값에서 value를 가져오는 방법
   //       -> const value = 어떤인풋을가져와서.value;
+  console.log(inputId.value);
+  console.log(inputPw.value);
   if (
-    inputId.value === null ||
+    inputId.value === undefined ||
     inputId.value === "" ||
-    inputPw.value === null ||
+    inputPw.value === undefined ||
     inputPw.value === ""
   ) {
     // 값이 없을 경우

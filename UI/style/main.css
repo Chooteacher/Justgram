@@ -74,9 +74,8 @@ header {
   border: solid 1px rgb(216, 216, 216);
   border-radius: 1px;
   display: inline-block;
-  margin-left: 275px;
+  margin-left: 580px;
   width: 833px;
-  height: 1500px;
   margin-top: 30px;
 }
 
@@ -152,6 +151,12 @@ header {
   padding-bottom: 10px;
 }
 
+.feed-time {
+  font-size: 15px;
+  color: rgb(197, 197, 197);
+  padding-left: 10px;
+}
+
 #comment {
   width: 821px;
   height: 60px;
@@ -177,4 +182,8 @@ header {
   font-size: 15px;
   color: skyblue;
   cursor: pointer;
+}
+
+.comment-text {
+  padding-left: 10px;
 }
